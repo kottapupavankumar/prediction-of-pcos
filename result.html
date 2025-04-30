@@ -1,0 +1,151 @@
+{% extends 'base.html' %}
+{% block content %}
+{% load static %}
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Results</title>
+    <style>
+        body {font-family: Arial, sans-serif;}
+        table {border-collapse: collapse;width: 50%;margin: 20px auto;}
+        th, td {border: 1px solid #ddd;padding: 10px;text-align: center;}
+        th {background-color: #f0f0f0;}
+    </style>
+</head>
+<body>
+    <p style="text-align: center;font-size:36px;font-weight:bold;">Results</p>
+    <table>
+        <tr>
+            <th>Result</th></tr>
+        <tr>
+            <td>{{resultpred}}</td></tr>
+    </table>
+    <p style="text-align: center;font-size:26px;font-weight:bold;">Details Of The Person : </p>
+    <table>
+        <tr>
+            <th>Parameter</th>
+            <th>Value</th></tr>
+        <tr>
+            <td> Age (yrs)</td>
+            <td>{{age}}</td></tr>
+        <tr>
+            <td>Weight ( in Kg)</td>
+            <td>{{weight}}</td></tr>
+        <tr>
+            <td>Height( in Cm) </td>
+            <td>{{height}}</td></tr>
+        <tr>
+            <td>Hip(inch)</td>
+            <td>{{hip}}</td></tr>
+        <tr>
+            <td>Waist(inch)</td>
+            <td>{{waist}}</td></tr>
+        <tr>
+            <td>Waist:Hip Ratio</td>
+            <td>{{waisthip}}</td></tr>
+        <tr>
+            <td>BMI</td>
+            <td>{{bmi}}</td></tr>
+        <tr>
+            <td>Pulse rate(bpm) </td>
+            <td>{{pulserate}}</td></tr>
+        <tr>
+            <td>Cycle(R/I)</td>
+            <td>{{cycle}}</td></tr>
+        <tr>
+            <td>Cycle length(days)</td>
+            <td>{{cyclelength}}</td></tr>
+        <tr>
+            <td>RR (breaths/min)</td>
+            <td>{{rr}}</td></tr>
+        <tr>
+            <td>Hb(g/dl)</td>
+            <td>{{hb}}</td></tr>
+        <tr>
+            <td>Blood Group</td>
+            <td>{{bloodgroup}}</td></tr>
+        <tr>
+            <td>Pregnant (Yes/No)</td>
+            <td>{{pregnancy}}</td></tr>
+        <tr>
+            <td>No. of aborptions</td>
+            <td>{{noofabortions}}</td></tr>
+        <tr>
+            <td>Reg.Exercise (Yes/No)</td>
+            <td>{{regularexcercise}}</td></tr>
+        <tr>
+            <td>Weight gain (Yes/No)</td>
+            <td>{{weightgain}}</td></tr>
+        <tr>
+            <td>Hair growth (Yes/No)</td>
+            <td>{{hairgrowth}}</td></tr>
+        <tr>
+            <td>Skin darkening (Yes/No)</td>
+            <td>{{skindarkening}}</td></tr>
+        <tr>
+            <td>Hair loss (Yes/No)</td>
+            <td>{{hairloss}}</td></tr>
+        <tr>
+            <td>Pimples (Yes/No)</td>
+            <td>{{pimples}}</td></tr>
+        <tr>
+            <td>Diabetes (Yes/No)</td>
+            <td>{{diabetes}}</td></tr>
+        <tr>
+            <td>Hypertension (Yes/No)</td>
+            <td>{{hyperextension}}</td></tr>
+        <tr>
+            <td>Infertility (Yes/No)</td>
+            <td>{{infertility}}</td></tr>
+        <tr>
+            <td>Stress Level (1 to 5)</td>
+            <td>{{stresslevels}}</td></tr>
+        <tr>
+            <td>I beta-HCG(mIU/mL)</td>
+            <td>{{betahcg1}}</td></tr>
+        <tr>
+            <td>II beta-HCG(mIU/mL)</td>
+            <td>{{betahcg2}}</td></tr>
+        <tr>
+            <td>TSH (mIU/L)</td>
+            <td>{{tsh}}</td></tr>
+        <tr>
+            <td>AMH(ng/mL)</td>
+            <td>{{amh}}</td></tr>
+        <tr>
+            <td>PRL(ng/mL)</td>
+            <td>{{prl}}</td></tr>
+        <tr>
+            <td>Vit D3 (ng/mL)</td>
+            <td>{{vit}}</td></tr>
+        <tr>
+            <td>PRG(ng/mL)</td>
+            <td>{{prg}}</td></tr>
+        <tr>
+            <td>RBS(mg/dl)</td>
+            <td>{{rbs}}</td></tr>
+        <tr>
+            <td>BP _Systolic (mmHg)</td>
+            <td>{{bpsystolic}}</td></tr>
+        <tr>
+            <td>BP _Diastolic (mmHg)</td>
+            <td>{{bpdiastolic}}</td></tr>
+        <tr>
+            <td>Follicle No. (L)</td>
+            <td>{{folliclel}}</td></tr>
+        <tr>
+            <td>Follicle No. (R)</td>
+            <td>{{follicler}}</td></tr>
+        <tr>
+            <td>Avg. F size (L) (mm)</td>
+            <td>{{avgfsizel}}</td></tr>
+        <tr>
+            <td>Avg. F size (R) (mm)</td>
+            <td>{{avgfsizer}}</td></tr>
+        <tr>
+            <td>Endometrium (mm)</td>
+            <td>{{endometrium}}</td></tr>
+    </table>
+</body>
+</html>
+{% endblock %}
