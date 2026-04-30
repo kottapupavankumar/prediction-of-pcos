@@ -1,4 +1,4 @@
-# prediction-of-pcos
+# Prediction-of-PCOS
 
 ## Overview
 This project analyzes Polycystic Ovary Syndrome (PCOS) data to identify key diagnosis factors. We developed a Logistic Regression-based predictive model using Python (Pandas, Seaborn, Matplotlib, Scikit-learn) and deployed a web application using HTML, CSS, and Django for user-friendly PCOS diagnosis.
