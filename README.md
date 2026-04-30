@@ -11,6 +11,7 @@ This project analyzes Polycystic Ovary Syndrome (PCOS) data to identify key diag
 
 ## Technologies Used
 - Python (Pandas, Seaborn, Matplotlib, Scikit-learn)
+- Logistic Regression Machine Learning Model
 - HTML
 - CSS
 - Django
